@@ -9,39 +9,31 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+### Step1:
 Initiate the MobileRobot
-<br/>
 
-Step2:
+### Step2:
  Connect your PC with the MobileRobot through Wi-Fi
-<br/>
-
-Step3:
+ 
+### Step3:
 Open batter_level.py file and check the battery.
-<br/>
 
-Step4:
+### Step4:
 Open the other Python files and Program the movements of the robot using python
-<br/>
 
-Step5:
+### Step5:
  Execute the python program and record the movements.
-<br/>
 
 ## Program
-```python
+```
 # Name : VINOTH M P
 # Reg no: 212223240182
 from robomaster import robot
 import time
-
 if __name__ == '__main__':
     ep_robot = robot.Robot()
     ep_robot.initialize(conn_type="ap")
-
     ep_chassis = ep_robot.chassis
-
     ep_led = ep_robot.led
     ep_camera = ep_robot.camera
     print("Video streaming started.....")
@@ -83,39 +75,14 @@ if __name__ == '__main__':
     print("Stopped video streaming.....")
     ep_robot.close()
 ```
-
 ## MobileRobot Movement Image:
-
 ![robo](./img/robomaster.png)
-
 Insert image here
 ![image](https://github.com/vinothmp21102005/mobilerobot-openloopcontrol/assets/145972215/37943ade-39e2-49c0-993b-36ebdeb5966e)
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## MobileRobot Movement Video:
 
-Upload your video in Youtube and paste your video-id here
+https://youtu.be/v5N_p11ex0U
 
- https://youtu.be/v5N_p11ex0U
-<br/>
-<br/>
-<br/>
-<br/>
-
-## Result:
+# Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
-
-
-<br/>
-<br/>
-
-```
-Mobile Robotics Laboratory
-Department of Artificial Intelligence and Data Science/ Machine Learning
-Saveetha Engineering College
 ```
