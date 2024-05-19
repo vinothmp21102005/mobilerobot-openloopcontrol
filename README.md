@@ -77,11 +77,8 @@ if __name__ == '__main__':
 ```
 ## MobileRobot Movement Image:
 ![robo](./img/robomaster.png)
-Insert image here
 ![image](https://github.com/vinothmp21102005/mobilerobot-openloopcontrol/assets/145972215/37943ade-39e2-49c0-993b-36ebdeb5966e)
 ## MobileRobot Movement Video:
-
 https://youtu.be/v5N_p11ex0U
-
 # Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
