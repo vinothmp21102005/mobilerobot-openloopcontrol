@@ -85,4 +85,3 @@ https://youtu.be/v5N_p11ex0U
 
 # Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
-```
